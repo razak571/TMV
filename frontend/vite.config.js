@@ -6,8 +6,8 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      "/api/": "http://localhost:3000",
-      "/uploads/": "http://localhost:3000",
+      "/api/": "https://tmv-movies-v1-server.onrender.com",
+      "/uploads/": "https://tmv-movies-v1-server.onrender.com",
     },
   },
 });
